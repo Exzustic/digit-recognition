@@ -3,11 +3,7 @@ from streamlit_drawable_canvas import st_canvas
 import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
-import pickle
 
-
-with open("one_hot_encoder.pkl", "rb") as file:
-    one_hot_encoder = pickle.load(file)
 
 model = load_model("digit_recognition_model.keras")
 
