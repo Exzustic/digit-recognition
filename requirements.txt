@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+ipykernel
+streamlit
+streamlit_drawable_canvas 
